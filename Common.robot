@@ -1,6 +1,7 @@
 *** Settings ***
 Library           SeleniumLibrary    run_on_failure=Nothing    WITH NAME    S
 Library           DateTime    WITH NAME    DT
+LIbrary          DataDriver    ../testdata    login_data.csv
 
 *** Variables ***
 ${totalTime}      30
